@@ -1,0 +1,33 @@
+.chatScreenText {
+    margin-left: 10px;
+    background-color: lightgray;
+    padding: 12px;
+    border-radius: 17px;
+}
+.chatScreenMes{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.chatMatch{
+    text-align: center;
+    padding: 20px;
+    color: gray;
+}
+
+.chatScreenMyMess{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.chatScreenMyText {
+    margin-left: auto;
+    background-color: dodgerblue;
+    padding: 12px;
+    border-radius: 17px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}

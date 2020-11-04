@@ -1,0 +1,16 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom:1px solid#efefef;
+  z-index: 20;
+}
+
+.imgHeader {
+  object-fit: contain;
+  height: 40px;
+}
+
+.headerIcon{
+    padding: 5px;
+}

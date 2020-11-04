@@ -1,0 +1,26 @@
+.chat{
+    font-family: "Open Sans", sans-serif;
+    padding:20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    border-bottom:1px solid#efefef;
+}
+
+.chatDetails{
+    flex:1;
+}
+
+.chatImg{
+    margin-right:20px;
+}
+
+.chatTime{
+    color:lightgray;
+
+}
+
+.message{
+    color:gray;
+}
