@@ -1,33 +1,57 @@
 .chatScreenText {
-    margin-left: 10px;
-    background-color: lightgray;
-    padding: 12px;
-    border-radius: 17px;
+  margin-left: 10px;
+  background-color: lightgray;
+  padding: 12px;
+  border-radius: 17px;
 }
-.chatScreenMes{
-    display: flex;
-    align-items: center;
-    padding: 20px;
+.chatScreenMes {
+  display: flex;
+  align-items: center;
+  padding: 20px;
 }
-.chatMatch{
-    text-align: center;
-    padding: 20px;
-    color: gray;
+.chatMatch {
+  text-align: center;
+  padding: 20px;
+  color: gray;
 }
 
-.chatScreenMyMess{
-    display: flex;
-    align-items: center;
-    padding: 20px;
+.chatScreenMyMess {
+  display: flex;
+  align-items: center;
+  padding: 20px;
 }
 .chatScreenMyText {
-    margin-left: auto;
-    background-color: dodgerblue;
-    padding: 12px;
-    border-radius: 17px;
-    color: white;
+  margin-left: auto;
+  background-color: dodgerblue;
+  padding: 12px;
+  border-radius: 17px;
+  color: white;
 }
-a{
-    text-decoration: none;
-    color: inherit;
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chatInput {
+  display: flex;
+  padding: 0px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid lightgray;
+}
+
+.chatInputField {
+  flex: 1;
+  padding: 10px;
+  border: none;
+}
+
+.chatInputButton {
+  border: none;
+  border-left: 1px solid lightgray;
+  padding: 13px;
+  font-weight: bold;
+  background-color: white;
+  color: #ff6a6a;
 }
